@@ -43,7 +43,7 @@ const testimonials = {
           <p style="margin-top: 60px;">"Avni's contributions to the creation of campaign proposals were invaluable. She conducted detailed analyses, evaluating parameters such as budget utilization, Incremental GMV, and new user acquisition, informing strategic decision-making and optimizing campaign performance.</p>
           <p>Overall, Avni demonstrated a deep understanding of data analysis principles and a keen ability to translate data insights into actionable recommendations. Her technical proficiency, coupled with her strategic mindset, make her a valuable asset to any organization seeking a skilled and experienced data analyst.</p>
           <p>I highly recommend Avni and am confident in her ability to excel in any data analyst role she pursues."</p>
-          <p style="font-style: normal; font-size: 13px;"><span style="color: #013220">En Wong</span> - Senior Product Manager at <span style="color: #013220">Majid Al Futtaim</span></p>
+          <p style="font-style: normal; font-size: 13px;"><span style="color: #013220">En Wong</span> - Head of Partnerships at <span style="color: #013220">Majid Al Futtaim - Retail</span></p>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
