@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.pdf {
+    height: 585px;
+    width: 50%;
+    margin-left: 375px;
+    margin-right: auto;
+    padding: 0;
+}
+
+.navbar-link, .navbar-brand {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+.navbar-link-active, .navbar-brand-active {
+    text-decoration: none;
+    color: #00A86B;
+    font-weight: normal;
+}
+
+.navbar-link-active:hover, .navbar-brand-active:hover {
+    text-decoration: none;
+    color: #00A86B;
+    font-weight: normal;
+}
+
+.navbar-link:hover, .navbar-brand:hover {
+  color: #00A86B;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Playfair Display';
+  font-size: 50px;
+}
+
+p {
+  text-align: center;
+  font-family: 'Playfair Display';
+  font-size: 18px;
+}

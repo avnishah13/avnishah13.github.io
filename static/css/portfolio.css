@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+#main {
+    margin-left: 70px;
+    font-family: 'Kaushan Script';
+}
+
+nav {
+    overflow: auto;
+}
+
+.navbar-link, .navbar-brand {
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.navbar-link-active, .navbar-brand-active {
+    text-decoration: none;
+    color: #00A86B;
+    font-weight: normal;
+}
+
+.navbar-link-active:hover, .navbar-brand-active:hover {
+    text-decoration: none;
+    color: #00A86B;
+    font-weight: normal;
+}
+
+.navbar-link:hover, .navbar-brand:hover {
+  color: #00A86B;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Playfair Display';
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Playfair Display';
+  font-size: 20px;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Teachers';
+  font-size: 20px;
+}
+
+p {
+  text-align: center;
+  font-family: 'Teachers';
+  font-size: 15px;
+}
+
+.pointer { 
+    cursor: pointer; 
+}

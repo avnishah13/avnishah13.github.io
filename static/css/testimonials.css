@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+#main {
+    margin-left: 70px;
+    font-family: 'Kaushan Script';
+}
+
+.navbar-link, .navbar-brand {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+.navbar-link-active, .navbar-brand-active {
+    text-decoration: none;
+    color: #00A86B;
+    font-weight: normal;
+}
+
+.navbar-link-active:hover, .navbar-brand-active:hover {
+    text-decoration: none;
+    color: #00A86B;
+    font-weight: normal;
+}
+
+.navbar-link:hover, .navbar-brand:hover {
+  color: #00A86B;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Playfair Display';
+  font-size: 30px;
+}
+
+p {
+  text-align: center;
+  font-family: 'Teachers';
+  font-size: 16px;
+  width: 70%;
+  margin-left: 230px;
+  font-style: italic;
+}
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23013220' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23013220' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
