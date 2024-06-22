@@ -63,7 +63,7 @@ const about = {
     </div>
     <div class="timeline-item" style="margin-left: -15px;">
       <div class="circle"><div class="inner-circle"></div></div>
-      <div class="role">Marketing Data Analysis Intern</div>
+      <div class="role">Marketing Data Analytics Intern</div>
       <div class="company">Majid Al Futtaim</div>
       <div class="period">September 2023 – March 2024</div>
     </div>
