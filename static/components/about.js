@@ -49,7 +49,7 @@ const about = {
 
   <div class="timeline">
     <div class="line"></div>
-    <div class="timeline-item" style="margin-right: -15px;">
+    <div class="timeline-item">
     <div class="circle"><div class="inner-circle"></div></div>
       <div class="role">Tech Management Intern</div>
       <div class="company">WA Team</div>
@@ -61,7 +61,7 @@ const about = {
       <div class="company">Maskottchen Technology</div>
       <div class="period">August 2023 – September 2023</div>
     </div>
-    <div class="timeline-item" style="margin-left: -15px;">
+    <div class="timeline-item">
       <div class="circle"><div class="inner-circle"></div></div>
       <div class="role">Marketing Data Analytics Intern</div>
       <div class="company">Majid Al Futtaim</div>
