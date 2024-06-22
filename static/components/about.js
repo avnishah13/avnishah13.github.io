@@ -55,7 +55,7 @@ const about = {
       <div class="company">WA Team</div>
       <div class="period">June 2022 – Oct 2022</div>
     </div>
-    <div class="timeline-item">
+    <div class="timeline-item" style="margin-left: -15px;">
       <div class="circle"><div class="inner-circle"></div></div>
       <div class="role">Python Development Intern</div>
       <div class="company">Maskottchen Technology</div>
