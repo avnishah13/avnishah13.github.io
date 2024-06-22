@@ -67,7 +67,7 @@ const about = {
       <div class="company">Majid Al Futtaim</div>
       <div class="period">September 2023 – March 2024</div>
     </div>
-    <div class="timeline-item" style="margin-left: -15px;">
+    <div class="timeline-item">
       <div class="role">Data Analytics Intern</div>
       <div class="company">Kulfi Collective</div>
       <div class="period">June 2024 – Present</div>
