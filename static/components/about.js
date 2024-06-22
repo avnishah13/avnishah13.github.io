@@ -59,13 +59,13 @@ const about = {
       <div class="circle" style="margin-left: -5%;"><div class="inner-circle"></div></div>
       <div class="role">Python Development Intern</div>
       <div class="company">Maskottchen Technology</div>
-      <div class="period">August 2023 – September 2023</div>
+      <div class="period">August 2023 – Sept 2023</div>
     </div>
     <div class="timeline-item" style="margin-right: -10px;">
       <div class="circle" style="margin-left: -5%;"><div class="inner-circle"></div></div>
       <div class="role">Marketing Data Analysis Intern</div>
       <div class="company">Majid Al Futtaim</div>
-      <div class="period">September 2023 – March 2024</div>
+      <div class="period">Sept 2023 – March 2024</div>
     </div>
     <div class="timeline-item">
       <div class="role">Data Analytics Intern</div>
