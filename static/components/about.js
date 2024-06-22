@@ -55,13 +55,13 @@ const about = {
       <div class="company">WA Team</div>
       <div class="period">June 2022 – Oct 2022</div>
     </div>
-    <div class="timeline-item" style="margin-right: -5px;">
+    <div class="timeline-item" style="margin-right: -10px;">
       <div class="circle"><div class="inner-circle"></div></div>
       <div class="role">Python Development Intern</div>
       <div class="company">Maskottchen Technology</div>
       <div class="period">August 2023 – September 2023</div>
     </div>
-    <div class="timeline-item" style="margin-right: -5px;">
+    <div class="timeline-item" style="margin-right: -10px;">
       <div class="circle"><div class="inner-circle"></div></div>
       <div class="role">Marketing Data Analysis Intern</div>
       <div class="company">Majid Al Futtaim</div>
