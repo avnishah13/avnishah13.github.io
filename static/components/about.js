@@ -39,7 +39,7 @@ const about = {
     <img src="../static/images/avni.jpg"></img>
 
     <div id="desc" style="float: right; width: 60%; padding-left: 0; margin-right: 200px">
-      <p style="text-align: left;">Hi, I'm Avni, currently navigating through the maze of academia at Indian Institute of Technology, Madras.</p>
+      <p style="text-align: left;">Hi, I'm Avni, currently navigating through the maze of academia at Indian Institute of Technology, Madras. Simulataneously, I'm exploring the intricate world of data as a Data Analysis Intern at Kulfi Collective, where I tackle complex data challenges and contribute to impactful projects.</p>
       <p>In a nutshell, I'm fueled by the challenge of deciphering data and crafting intuitive web experiences. From analyzing market trends to developing ticket booking and music streaming platforms, I blend analytical rigor with creative problem-solving to tackle diverse projects in both data analysis and web development.</p>
       <p>In terms of work, I've donned multiple hats - from being a tech manager, aiding in sales and support, to diving into Python development for crafting engaging Telegram bots. Plus, I've delved into the realms of marketing data analysis, crunching numbers to unearth insights that led to substantial business growth.</p>
       <p>When I'm not crunching numbers or coding, you'll often find me lost in the pages of a good book, sketching people, experimenting in the kitchen, jamming out to tunes and gaming, or diving into the latest tech trends!</p>
