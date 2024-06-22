@@ -62,6 +62,7 @@ const about = {
       <div class="period">August 2023 – September 2023</div>
     </div>
     <div class="timeline-item" style="margin-left: -15px;">
+      <div class="circle"><div class="inner-circle"></div></div>
       <div class="role">Marketing Data Analysis Intern</div>
       <div class="company">Majid Al Futtaim</div>
       <div class="period">September 2023 – March 2024</div>
