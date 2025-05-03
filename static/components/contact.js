@@ -14,9 +14,6 @@ const contact = {
           <router-link to="/about" class="navbar-link" style="font-size: 15px;">About</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/interests" class="navbar-link" style="font-size: 15px;">Interests</router-link>
-        </li>
-        <li class="nav-item">
           <router-link to="/portfolio" class="navbar-link" style="font-size: 15px;">Portfolio</router-link>
         </li>
         <li class="nav-item">

@@ -14,9 +14,6 @@ const portfolio = {
           <router-link to="/about" class="navbar-link" style="font-size: 15px;">About</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/interests" class="navbar-link" style="font-size: 15px;">Interests</router-link>
-        </li>
-        <li class="nav-item">
           <router-link to="/portfolio" class="navbar-link-active" style="font-size: 15px;">Portfolio</router-link>
         </li>
         <li class="nav-item">
@@ -48,18 +45,21 @@ const portfolio = {
       </div>
     </div><br><br><br>
     <div>
-    <h1>Data Analysis Projects</h1><br>
+    <h1>Data Analytics/Data Science Projects</h1><br>
       <div style="width: 25%; display: inline-block">
         <img class="pointer" src="../static/images/vaccine.png" @click="mark_project('vaccine')" data-bs-toggle="modal" data-bs-target="#modal" style="border-radius: 25px; height: 300px; width: 300px; margin-left: 40px;"></img>
-      </div>
-      <div style="width: 25%; display: inline-block">
-        <img class="pointer" src="../static/images/maf.png" @click="mark_project('maf')" data-bs-toggle="modal" data-bs-target="#modal" style="border-radius: 25px; height: 300px; width: 300px; margin-left: 40px;"></img>
       </div>
       <div style="width: 25%; display: inline-block">
         <img class="pointer" src="../static/images/delivery.png" @click="mark_project('delivery_analysis')" data-bs-toggle="modal" data-bs-target="#modal" style="border-radius: 25px; height: 300px; width: 300px; margin-left: 40px; overflow: hidden;"></img>
       </div>
       <div style="width: 25%; display: inline-block">
         <img class="pointer" src="../static/images/cycle.png" @click="mark_project('bike')" data-bs-toggle="modal" data-bs-target="#modal" style="border-radius: 25px; height: 300px; width: 300px; margin-left: 40px; overflow: hidden;"></img>
+      </div>
+      <div style="width: 25%; display: inline-block">
+        <img class="pointer" src="../static/images/crimecast.png" @click="mark_project('crimecast')" data-bs-toggle="modal" data-bs-target="#modal" style="border-radius: 25px; height: 300px; width: 300px; margin-left: 40px; overflow: hidden;"></img>
+      </div><br><br>
+      <div style="width: 25%; display: inline-block">
+        <img class="pointer" src="../static/images/riaa.png" @click="mark_project('riaa')" data-bs-toggle="modal" data-bs-target="#modal" style="border-radius: 25px; height: 300px; width: 300px; margin-left: 40px; overflow: hidden;"></img>
       </div><br><br>
     </div>
   </body>
@@ -132,16 +132,6 @@ const portfolio = {
         <p>You can view the source code for this project here: <a href="https://github.com/avnishah13/Swiggy-vs-Zomato-EDA/blob/main/Swiggy%20Vs.%20Zomato%20EDA.ipynb">Github</a></p>
       </div>
 
-      <div v-if="project=='maf'" class="mw-100 w-75" style="display: block; margin-left: auto; margin-right: auto;">
-        <img src="../static/images/maf.png" style="height: 200px; width: 200px; display: block; margin-left: auto; margin-right: auto"></img><br>
-        <h3>Partnership Deal Analysis and Dashboard Support</h3><br>
-        <p style="margin: 0">Driving Strategic Partnerships and Data-Driven Insights for Business Growth at Majid Al Futtaim.</p><br>
-        <p style="font-size: 20px">Description</p>
-        <hr><br>
-        <p>At Majid Al Futtaim, I played a crucial role in supporting strategic partnership deals with Mastercard and VISA by providing data analysis expertise and collaborating with cross-functional teams. While part of the team, I contributed to the development of comprehensive dashboards by supplying data and aiding in gap identification. This facilitated automated campaign reporting and improved understanding of user engagement and ROI. Additionally, I addressed data discrepancies, enhancing reporting accuracy by 95%. Through detailed performance analysis of campaigns, I assessed key parameters for success and optimized future strategies, underscoring the value of collaboration and data-driven decision-making in driving business growth.</p>
-        <i><p>For privacy reasons, I cannot share more information or visuals on this project.</p></i>
-      </div>
-
       <div v-if="project=='bike'" class="mw-100 w-75" style="display: block; margin-left: auto; margin-right: auto;">
         <img src="../static/images/cycle.png" style="height: 200px; width: 200px; display: block; margin-left: auto; margin-right: auto"></img><br>
         <h3>Data-Driven Insights: Empowering Bike Sales Analysis</h3>
@@ -154,6 +144,33 @@ const portfolio = {
         <p>The centerpiece of this endeavor was the development of a dynamic dashboard, meticulously engineered to showcase key metrics such as sales amount by month, Year-to-Date (YTD), Quarter-to-Date (QTD), Month-to-Date (MTD), and total sales numbers as shown in the dashboard excerpt above. Employing conditional formatting, I adeptly highlighted top-performing bike sellers based on sales performance, providing invaluable insights into the sales landscape. Through this project, I not only honed my skills in data wrangling and visualization but also gained a profound understanding of the underlying trends shaping bike sales dynamics.</p><br>
         <p>You can view the source files for this project here: <a href="https://github.com/avnishah13/Power-BI-Bike-Equipment-Sales-Data-Analysis">Github</a></p>
       </div>
+
+      <div v-if="project=='crimecast'" class="mw-100 w-75" style="display: block; margin-left: auto; margin-right: auto;">
+        <img src="../static/images/crimecast.png" style="height: 200px; width: 200px; display: block; margin-left: auto; margin-right: auto"></img><br>
+        <h3>CrimeCast - Crime Category Prediction</h3>
+        <p style="margin: 0">A data science project predicting crime categories based on time, location, and other contextual features.</p><br>
+        <p>View the Kaggle competition here - <a href="https://www.kaggle.com/competitions/crime-cast-forecasting-crime-categories">Kaggle Competition</a></p><br>
+        <p style="font-size: 20px">Description</p>
+        <hr><br>
+        <p>CrimeCast is a classification-based machine learning project developed for a Kaggle competition focused on predicting crime categories from real-world data. This project explores crime reports with features like timestamp, district, coordinates, and more to identify patterns and forecast the likely crime category.</p>
+        <p>The project leverages preprocessing techniques like label encoding, datetime decomposition, and class balancing, followed by training a LightGBM classifier for multi-class prediction. Emphasis was also placed on reproducibility, logging experiments, and visualizing model performance with metrics like confusion matrix and log loss.</p>
+        <p>The project highlights applied skills in EDA, feature engineering, model tuning, and deployment, making it a robust example of end-to-end machine learning application.</p>
+        <p>You can view the source code for this project here: <a href=https://github.com/avnishah13/crime-categorisation">Github</a></p>
+      </div>
+
+      <div v-if="project=='riaa'" class="mw-100 w-75" style="display: block; margin-left: auto; margin-right: auto;">
+        <img src="../static/images/riaa.png" style="height: 200px; width: 200px; display: block; margin-left: auto; margin-right: auto"></img><br>
+        <h3>RIAA - An AI-powered academic learning assistant</h3><br>
+        <p style="font-size: 20px">Description</p>
+        <hr><br>
+        <p>RIAA is a context-aware AI system developed to support self-paced academic learning through a chat-based interface. It engages students in meaningful conversations to help them understand course concepts, tackle assignments using hints and strategies, and receive curated resources tailored to their current progress and subject matter.</p>
+        <p>Unlike typical AI bots, RIAA maintains session memory and adapts to course-specific content, using Retrieval-Augmented Generation (RAG) powered by LangChain and ChromaDB. It avoids providing direct answers to preserve academic integrity, and instead emphasizes understanding, problem-solving, and critical thinking. Students can upload files, maintain a downloadable chat history, and use a lite chat version for quick help.</p>
+        <p>Built on a Flask backend with a SQLite and ChromaDB database architecture, RIAA incorporates JWT authentication, RBAC permissions, and Perplexity AI-powered responses. Educators whose content supports the assistant are acknowledged, and all interactions are secured with encrypted storage and rate-limiting.</p>
+        <p>You can view the source code for this assistant here: <a href="https://github.com/your-username/riaa-academic-assistant">Github</a></p>
+      </div>
+
+
+
     </div>
     </div>
   </div>

@@ -14,9 +14,6 @@ const about = {
           <router-link to="/about" class="navbar-link-active" style="font-size: 15px;">About</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/interests" class="navbar-link" style="font-size: 15px;">Interests</router-link>
-        </li>
-        <li class="nav-item">
           <router-link to="/portfolio" class="navbar-link" style="font-size: 15px;">Portfolio</router-link>
         </li>
         <li class="nav-item">
@@ -39,7 +36,7 @@ const about = {
     <img src="../static/images/avni.jpg"></img>
 
     <div id="desc" style="float: right; width: 60%; padding-left: 0; margin-right: 200px">
-      <p style="text-align: left;">Hi, I'm Avni, currently navigating through the maze of academia at Indian Institute of Technology, Madras. Simulataneously, I'm exploring the intricate world of data as a Data Analysis Intern at Kulfi Collective, where I tackle complex data challenges and contribute to impactful projects.</p>
+      <p style="text-align: left;">Hi, I'm Avni, currently navigating through the maze of academia at Indian Institute of Technology, Madras. Simulataneously, I'm exploring the intricate world of data as a Associate Data Scientist at Kulfi Collective, where I tackle complex data challenges and contribute to impactful projects.</p>
       <p>In a nutshell, I'm fueled by the challenge of deciphering data and crafting intuitive web experiences. From analyzing market trends to developing ticket booking and music streaming platforms, I blend analytical rigor with creative problem-solving to tackle diverse projects in both data analysis and web development.</p>
       <p>In terms of work, I've donned multiple hats - from being a tech manager, aiding in sales and support, to diving into Python development for crafting engaging Telegram bots. Plus, I've delved into the realms of marketing data analysis, crunching numbers to unearth insights that led to substantial business growth.</p>
       <p>When I'm not crunching numbers or coding, you'll often find me lost in the pages of a good book, sketching people, experimenting in the kitchen, jamming out to tunes and gaming, or diving into the latest tech trends!</p>
@@ -59,18 +56,24 @@ const about = {
       <div class="circle" style="margin-left: -5%;"><div class="inner-circle"></div></div>
       <div class="role">Python Development Intern</div>
       <div class="company">Maskottchen Technology</div>
-      <div class="period">August 2023 – Sept 2023</div>
+      <div class="period">Aug 2023 – Sept 2023</div>
     </div>
     <div class="timeline-item" style="margin-right: -10px;">
       <div class="circle" style="margin-left: -5%;"><div class="inner-circle"></div></div>
-      <div class="role">Marketing Data Analysis Intern</div>
+      <div class="role">Mktg. Data Analytics Intern</div>
       <div class="company">Majid Al Futtaim</div>
       <div class="period">Sept 2023 – March 2024</div>
     </div>
     <div class="timeline-item">
+      <div class="circle" style="margin-left: -5%;"><div class="inner-circle"></div></div>
       <div class="role">Data Analytics Intern</div>
       <div class="company">Kulfi Collective</div>
-      <div class="period">June 2024 – Present</div>
+      <div class="period">June 2024 – April 2025</div>
+    </div>
+    <div class="timeline-item">
+      <div class="role">Associate Data Scientist</div>
+      <div class="company">Kulfi Collective</div>
+      <div class="period">May 2025 – Present</div>
     </div>
   </div>
     
